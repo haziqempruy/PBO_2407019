@@ -1,18 +1,14 @@
 package latihan_pbo.latihan1.tugas_2;
 
 public class BangunRuang extends BangunDatar {
-    private int tinggi; // Atribut tambahan
+    private int tinggi;
 
-    // Constructor BangunRuang
     public BangunRuang(int panjang, int lebar, int tinggi) {
-        super(panjang, lebar); // Menggunakan constructor Parent
+        super(panjang, lebar);
         this.tinggi = tinggi;
     }
 
-    // Method menghitung volume menggunakan hasil hitungLuas()
     public int hitungVolume() {
-        return hitungLuas() * tinggi; // Menggunakan kembali method Parent
+        return hitungLuas() * tinggi;
     }
- {
-    
-}
+} // <--- PASTIKAN ADA KURUNG INI UNTUK MENUTUP CLASS
